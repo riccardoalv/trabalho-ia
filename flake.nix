@@ -22,7 +22,10 @@
             nodejs
             python311Packages.transformers
             python311Packages.torch
+            python311Packages.numpy
+            python311Packages.pandas
             (pkgs.python311Packages.opencv4.override { enableGtk2 = true; })
+            facedetect
           ];
         };
     };
